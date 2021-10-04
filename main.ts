@@ -37,7 +37,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
     otherSprite.destroy()
 })
 let mySprite2: Sprite = null
-game.splash("Asteroids")
+game.splash("Facebookeroids")
 info.setLife(3)
 let mySprite = sprites.create(img`
     ....ffffff.........ccc..
